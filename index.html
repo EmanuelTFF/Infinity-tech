@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Infinity tech</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navigation">
+            <a href="#" class="logo">Infi<span>ni</span>ty<span>te</span>ch</a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#">Inicio</a></li>
+                <li class="nav-item"><a href="#">Produtos</a></li>
+                <li class="nav-item"><a href="#">Quem somos</a></li>
+                <li class="nav-item"><a href="#">Ajuda</a></li>
+                <li class="nav-item"><a href="login.html">Perfil</a></li>
+                <i class='bx bx-search'></i>
+            </ul>
+            <div class="menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="home">
+            <div class="home-text">
+                <h4 class="text-h4">Bem vindo à infinity tech</h4>
+                <h1 class="text-h1">temos infinitos produtos</h1>
+                <br><br><br>
+                <a href="#" class="home-btn">Navegar</a>
+            </div>
+        </section>
+        <div class="servicos">
+            <div class="servicos-text">
+                <h2 class="text-h2">Nossos produtos</h2>
+                <div class="filter-controls">
+                    <div class="price-filter">
+                        <label for="price-range">Filtrar por preço até: R$<span id="price-value">1000</span></label>
+                        <input type="range" id="price-range" min="0" max="1000" step="10" value="1000">
+                    </div>
+                    <div class="category-filter">
+                        <button class="filter-btn" data-category="all">Todos</button>
+                        <button class="filter-btn" data-category="headset">Headset</button>
+                        <button class="filter-btn" data-category="microfone">Microfone</button>
+                        <button class="filter-btn" data-category="monitor">Monitor</button>
+                        <button class="filter-btn" data-category="mousepad">Mousepad</button>
+                    </div>
+                </div>
+            </div>
+            <div class="servicos-grid">
+                <div class="servico-item" data-price="449" data-category="headset">
+                    <img src="fone.png" alt="Headset Logitech g432">
+                    <h3>Headset Logitech g432</h3>
+                    <p>R$449,00</p>
+                    <a href="pagina1.html" class="home-btn">Comprar</a>
+                </div>
+                <div class="servico-item" data-price="371" data-category="teclado">
+                    <img src="teclado1.png" alt="Teclado Logitech g213">
+                    <h3>Teclado Logitech g213</h3>
+                    <p>R$371,00</p>
+                    <br>
+                    <br>
+                    <a href="pagina2.html" class="home-btn">Comprar</a>
+                </div>
+                <div class="servico-item" data-price="639.98" data-category="microfone">
+                    <img src="microfone.png" alt="HyperX Microfone Gamer QuadCast">
+                    <h3>HyperX Microfone</h3>
+                    <p>R$639,98</p>
+                    <br>
+                    <a href="pagina3.html" class="home-btn">Comprar</a>
+                </div>
+                <div class="servico-item" data-price="699.90" data-category="monitor">
+                    <img src="monitor.png" alt="Monitor Gamer Super Frame Vision, 24 Pol">
+                    <h3>Monitor Gamer</h3>
+                    <p>R$699,90</p>
+                    <br>
+                    <br>
+                    <a href="pagina4.html" class="home-btn">Comprar</a>
+                </div>
+                <div class="servico-item" data-price="49.90" data-category="mousepad">
+                    <img src="mousepad.png" alt="Mouse Pad Gamer, grande 90x40 costurado">
+                    <br><br>
+                    <h3>Mouse Pad Gamer</h3>
+                    <p>R$49,90</p>
+                    <br>
+                    <a href="pagina5.html" class="home-btn">Comprar</a>
+                </div>
+                <div class="servico-item" data-price="400.90" data-category="headset">
+                    <img src="fone_2-removebg-preview.png" alt="Headset Astro A10">
+                    <h3>Headset Astro A10</h3>
+                    <p>R$400,90</p>
+                    <a href="pagina6.html" class="home-btn">Comprar</a>
+                </div>
+                <div class="servico-item" data-price="150" data-category="teclado">
+                    <img src="teclado2.png" alt="Teclado Gamer Mecanico Kuromori 60%">
+                    <h3>Teclado Gamer Mecanico Kuromori 60%</h3>
+                    <p>R$150,00</p>
+                    <br>
+                    <br>
+                    <a href="pagina4.html" class="home-btn">Comprar</a>
+                </div>
+                <div class="servico-item" data-price="199.90" data-category="microfone">
+                    <img src="microfone1.png" alt="Microfone Gamer Fifine SuperFrame">
+                    <h3>Microfone Gamer Fifine Super</h3>
+                    <p>R$199,90</p>
+                    <a href="pagina4.html" class="home-btn">Comprar</a>
+                </div>
+                <div class="servico-item" data-price="899.90" data-category="monitor">
+                    <img src="monitor1.png" alt="Monitor Gamer ASRock Phantom Gaming, 27 Pol, Curvo">
+                    <h3>Monitor Gamer, 27 Pol, Curvo</h3>
+                    <p>R$899,90</p>
+                    <br>
+                    <br>
+                    <a href="pagina4.html" class="home-btn">Comprar</a>
+                </div>
+                <div class="servico-item" data-price="49.90" data-category="mousepad">
+                    <img src="mousepad1.png" alt="Mouse Pad sem Fio Logitech G Powerplay">
+                    <h3>Mouse Pad Gamer</h3>
+                    <p>R$49,90</p>
+                    <br>
+                    <br>
+                    <a href="pagina4.html" class="home-btn">Comprar</a>
+                </div>
+            </div>
+        </div>
+        <section class="quem-somos">
+            <div class="quem-somos-text">
+                <h2 class="text-h2">Quem Somos</h2>
+                <p>Seja bem-vindo ao seu destino definitivo para periféricos de alta qualidade! Na nossa loja, você encontrará uma ampla gama de acessórios e dispositivos que irão transformar a sua experiência de computação. Dos mais avançados teclados mecânicos projetados para precisão e conforto, aos mouses ergonômicos que proporcionam controle excepcional em cada clique, até os headsets com áudio imersivo que levam você diretamente para o centro da ação nos seus jogos favoritos.
+
+                    Nossa seleção cuidadosamente curada apresenta apenas produtos das melhores marcas, garantindo durabilidade, desempenho e estilo. Além disso, estamos sempre atualizados com as últimas tendências e tecnologias do mercado, para que você possa estar um passo à frente em termos de funcionalidade e inovação. Explore nossas categorias para encontrar exatamente o que você precisa para otimizar o seu setup. Quer esteja buscando melhorar a produtividade no trabalho, maximizar a precisão nos seus jogos ou simplesmente elevar o seu entretenimento multimídia para um novo patamar, nós temos a solução perfeita para você.
+                    
+                    Compre agora e descubra como nossos periféricos podem transformar a sua maneira de interagir com o seu computador. Estamos aqui para ajudá-lo a encontrar os acessórios ideais que se encaixam perfeitamente no seu estilo de vida digital. Vamos juntos elevar a sua experiência computacional a um novo patamar de excelência!</p>
+            </div>
+        </section>
+        <section class="nossa-equipe">
+            <div class="nossa-equipe-text">
+                <h2 class="text-h2">Nossa Equipe</h2>
+                <div class="equipe-grid">
+                    <div class="equipe-item">
+                        <img src="arthur.jpg" alt="Membro da equipe 1">
+                        <h3>Arthur Henrique Pereira</h3>
+                        <p>Documentação</p>
+                    </div>
+                    <div class="equipe-item">
+                        <img src="Ana.jpg" alt="Membro da equipe 2">
+                        <h3>Ana Clara Rottini Engels</h3>
+                        <p>Documentação</p>
+                    </div>
+                    <div class="equipe-item">
+                        <img src="pacheco.png" alt="Membro da equipe 3">
+                        <h3>Lucas Silva Pacheco</h3>
+                        <p>Documentação</p>
+                    </div>
+                    <div class="equipe-item">
+                        <img src="emanuel.jpg" alt="Membro da equipe 3">
+                        <h3>Emanuel Tonis Florz Filho</h3>
+                        <p>Programador</p>
+                    </div>
+                    <div class="equipe-item">
+                        <img src="cani.jpg" alt="Membro da equipe 3">
+                        <h3>Vithor Vilson Klipp Cani</h3>
+                        <p>Programador</p>
+                    </div>
+                    <div class="equipe-item">
+                        <img src="winter.jpg" alt="Membro da equipe 3">
+                        <h3>Matheus Winter</h3>
+                        <p>Programador</p>
+                    </div>
+                    <!-- Adicione mais membros da equipe conforme necessário -->
+                </div>
+            </div>
+        </section>
+    </main>
+        <footer class="footer">
+        <div class="contatos">
+            <h3>Contatos</h3>
+            <ul>
+                <li><a href="mailto:sonnusterapia@gmail.com"><i class='bx bx-envelope'></i> sonnusterapia@gmail.com</a></li>
+                <li><a href="https://www.instagram.com/sonnusterapia/"><i class='bx bxl-instagram'></i> @sonnusterapia</a></li>
+                <li><a href="tel:+5547997802455"><i class='bx bx-phone'></i> (47) 99780-2455</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
